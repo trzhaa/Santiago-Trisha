@@ -31,7 +31,7 @@ class BankAccount:
 account = BankAccount(account_number="08432218", owner="Trisha")
 
 # Perform transactions
-account.deposit(50000)     # Deposit $500
-account.withdraw(11000)    # Withdraw $200
+account.deposit(50000)     # Deposit ₱500
+account.withdraw(11000)    # Withdraw ₱200
 account.withdraw(41000)    # Try to withdraw more than available
 account.display_balance()  # Display the current balance
