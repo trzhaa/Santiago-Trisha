@@ -8,5 +8,9 @@ class Student:
            print(f"Hello, my name is {self.name}. I am {self.age} years old, and I am studying {self.course}.")
 
 student1 = Student("Trisha Santiago", 20, "Diploma Information Technology")
+student2 = Student("Kimberly Shane Villegas", 20, "Diploma Information Technology")
+student3 = Student("Honey Jane Pilande", 20, "Diploma Information Technology")
 
 student1.introduce()
+student2.introduce()
+student3.introduce()
